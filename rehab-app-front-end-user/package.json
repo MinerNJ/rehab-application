@@ -9,7 +9,8 @@
     "react": "^16.8.6",
     "react-chartjs": "^1.2.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "twilio": "^3.30.1"
   },
   "scripts": {
     "start": "react-scripts start",
