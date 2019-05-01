@@ -34,7 +34,7 @@ public class SubSurveyRepoTest {
 		entityManager.flush();
 		entityManager.clear();
 		
-		Optional<SubmittedSurvey> surveyToFind = surveyRepo.findById(surveyIdids);
+		Optional<SubmittedSurvey> surveyToFind = surveyRepo.findById(surveyId);
 		SubmittedSurvey surveyFromDatabase = surveyRepo.findByName("survey");
 		assertThat(surveyFromDatabase.getName(), is("question"));
 	}
